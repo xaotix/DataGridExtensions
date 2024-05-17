@@ -103,7 +103,7 @@
         /// The select all content property
         /// </summary>
         public static readonly DependencyProperty SelectAllContentProperty = DependencyProperty.Register(
-            nameof(SelectAllContent), typeof(object), typeof(MultipleChoiceFilter), new FrameworkPropertyMetadata("(Select All)"));
+            nameof(SelectAllContent), typeof(object), typeof(MultipleChoiceFilter), new FrameworkPropertyMetadata("(Selecionar Tudo)"));
 
         /// <summary>
         /// Gets or sets an optional text to pre-filter the list
